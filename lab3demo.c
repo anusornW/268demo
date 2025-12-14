@@ -11,6 +11,29 @@ int main() {
 		}
 		else //30 31 32 ... 39
 			printf("you can test again \n");
+/*
+sol2:	
+	if (score >= 30)
+		//pass
+		//you can test again
+	else
+		//false
+		
+sol3:
+	if (score < 30)
+		//false
+	else
+		//pass
+		//you can test again
+
+sol4:
+	if (score < 30)
+		//false	
+	if (score>29 && score < 40)
+		//you can test again
+	if (score>39)
+		//pass
+*/
 	
 	printf("See you again \n");
 }
