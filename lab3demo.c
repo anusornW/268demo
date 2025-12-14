@@ -4,7 +4,7 @@ int main() {
 	scanf("%d",&score);
 	if (score >= 40)
 		printf("Pass \n");
-	if (score < 40)
+	else
 		printf("False \n");
 	
 	printf("See you again \n");
